@@ -1,0 +1,158 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items: center; */
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+
+    .navBar .navLink .menuLink{
+        text-decoration: none;
+        margin-left: 10px;
+        color: grey;
+        font-size: small;
+    }
+
+    .mainContent{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mainContent .leftContent h1{
+        font-size: 48px;
+        max-width: 18ch;
+        font-weight: 600;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .mainContent .rightContent {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+
+    .about {
+        background-color: rgb(33, 33, 33);
+        display: flex;
+        padding: 20px;
+        color: antiquewhite;
+    }
+
+    .about .aboutDetails .aboutLeft h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .skills .skillSection {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .skills .skillSection .actualSkill {
+        width: 80%;
+        padding: 20px;
+        margin: 20px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+    }
+
+    .portfolio .portfolioItems {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio .portfolioItems .items {
+        width: 90%;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        padding: 4% 8%;
+        color: white;
+    }
+
+    .footer .footerLeft {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items: center; */
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items: center; */
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+ }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-bottom: 1px solid lightgray;
+        backdrop-filter: blur(3px);
+    }
+ }
