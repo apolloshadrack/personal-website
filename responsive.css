@@ -90,6 +90,45 @@
     ul {
         padding: 0px;
     }
+
+    .aboutPage .aboutLeft h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+
+    .skills h1 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    .tools h1 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+
+    .contact .contactInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .contactInfo .info {
+        padding: 40px;
+        background-color: antiquewhite;
+        margin-right: 20px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+
+    .contact h1 {
+        font-size: 36px;
+        margin-bottom: 0px;
+    }
+
+    .contact h2 {
+        font-size: 36px;
+        color: #ff6f00;
+        margin-top: 0px;
+    }
 }
 
  /* Small devices (landscape phones, 576px and up) */
