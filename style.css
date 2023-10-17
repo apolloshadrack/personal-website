@@ -190,10 +190,16 @@ body{
 }
 
 .aboutPage .aboutLeft p {
+    color: #353535;
+    font-weight: 500;
+    line-height: 1.5;
+   
+}
+
+.aboutPage .aboutLeft span{
     color: #ff6f00;
     text-transform: uppercase;
     font-weight: 600;
-   
 }
 
 
